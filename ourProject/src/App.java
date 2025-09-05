@@ -6,6 +6,19 @@ public class App {
 
         testLesson.test();
 
-      
+        System.out.println("=== Run tests from App ===");
+
+        System.out.println("\n-- TestUser --");
+        TestUser.test();
+
+        System.out.println("\n-- TestTime --");
+        TestTime.test();
+
+        System.out.println("\n-- TestRecursion --");
+        TestRecursion.test();
+
+        System.out.println("\n=== End ===");
+
+    
     }
 }
